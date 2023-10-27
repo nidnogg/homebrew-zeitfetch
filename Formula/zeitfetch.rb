@@ -4,9 +4,9 @@
 class Zeitfetch < Formula
   desc "Instantaneous snapshots of system information"
   homepage "https://github.com/nidnogg/zeitfetch"
-  url "https://github.com/nidnogg/zeitfetch/releases/download/v0.1.7/zeitfetch.tar.gz"
-  sha256 "d8c8c35be795ebf596f8ffb1886295bbe279064356ae24b1c1f4cc3f41cc6c39"
-  version "0.1.7"
+  url "https://github.com/nidnogg/zeitfetch/releases/download/v0.1.8/zeitfetch.tar.gz"
+  sha256 "9fccaffe09dc449b259f04a6915d9e60f79cdead60c090308345d03fffaba4b2"
+  version "0.1.8"
 
   def install
     bin.install "zeitfetch"
