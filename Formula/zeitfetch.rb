@@ -6,7 +6,7 @@ class Zeitfetch < Formula
   desc "Instantaneous snapshots of system information"
   homepage "https://github.com/nidnogg/zeitfetch"
   
-  metadata = JSON.parse("../metadata.json")
+  metadata = JSON.parse(File.read("../metadata.json"))
   url "https://github.com/nidnogg/zeitfetch/releases/download/v#{metadata['version']}/zeitfetch.tar.gz"
   sha256 metadata["sha256"]
   version metadata["version"]
